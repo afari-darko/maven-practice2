@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gogeek.local</groupId>
+  <artifactId>Maven-webApp-01</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Maven-webApp-01 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+<distributionManagement>
+	<repository>
+   		<id>nexus</id>
+		<name>gogeek nexus repo releases</name>
+		<url>http://192.168.16.130:8081/repository/gogeek-maven-release/</url>
+	</repository>
+
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>gogeek nexus repo snapshots</name>
+		<url>http://13.233.251.142:8081/repository/ashokit-snapshot/</url>
+	</snapshotRepository>
+</distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>Maven-webApp-01</finalName>
+  </build>
+</project>
