@@ -4,14 +4,13 @@
   <groupId>gogeek.local</groupId>
   <artifactId>Maven-webApp-01</artifactId>
   <packaging>war</packaging>
-  <version>5.0-RELEASE</version>
+  <version>6.0-RELEASE</version>
   <name>Maven-webApp-01 Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
 	<sonar.host.url>http://192.168.16.130:9000/</sonar.host.url>
-	<sonar.login>admin</sonar.login>
-	<sonar.password>Sonarqube123$</sonar.password>
+	<sonar.login>sqa_cb425594e307351a371b1ff03e20fe9e65d3e39d</sonar.login>
   </properties>
 
 <distributionManagement>
